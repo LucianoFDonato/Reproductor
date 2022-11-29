@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>Reproductor de musica</title>
+</head>
+
+<body>
+    <h1 class="titulo-playlist"> New Playing 2022 </h1>
+    <div class="container">
+        <div class="listado-canciones">
+            <div class="cancion">
+                <div class="titulo">
+                    <img src="imagenes/backst.png" alt="BackstreetBoys" class="posters">
+                    <h1> BackstreetBoys </h1>
+                </div>
+                <div class="play" id="BackstreetBoys">
+                    <img src="iconos/play.png"></img>
+                </div>
+                <div class="stop">
+                    <img src="iconos/stop.png"></img>
+                </div>
+                <div class="download">
+                    <a href="audios/BackstreetBoys.mp3" download>
+                        <img src="iconos/download.png"></img>
+                    </a>
+                </div>
+                <input type="range" max="1" min="0" step="0.1" class="volumen">
+            </div>
+            <div class="cancion">
+                <div class="titulo">
+                    <img src="imagenes/manue.png" alt="ManuelTurizo" class="posters">
+                    <h1>Manuel Turizo</h1>
+                </div>
+                <div class="play" id="ManuelTurizo">
+                    <img src="iconos/play.png"></img>
+                </div>
+                <div class="stop">
+                    <img src="iconos/stop.png"></img>
+                </div>
+                <div class="download">
+                    <a href="audios/ManuelTurizo.mp3.mp3" download>
+                        <img src="iconos/download.png"></img>
+                    </a>
+                </div>
+                <input type="range" max="1" min="0" step="0.1" class="volumen">
+            </div>
+            <div class="cancion">
+                <div class="titulo">
+                    <img src="imagenes/charlie.png" alt="CharliePuth" class="posters">
+                    <h1> Charlie Puth</h1>
+                </div>
+                <div class="play" id="CharliePuth">
+                    <img src="iconos/play.png"></img>
+                </div>
+                <div class="stop">
+                    <img src="iconos/stop.png"></img>
+                </div>
+                <div class="download">
+                    <a href="audios/CharliePuth.mp3" download>
+                        <img src="iconos/download.png"></img>
+                    </a>
+                </div>
+                <input type="range" max="1" min="0" step="0.1" class="volumen">
+            </div>
+            <div class="cancion">
+                <div class="titulo">
+                    <img src="imagenes/danza.png" alt="DanzaKuduro" class="posters">
+                    <h1> Danza Kuduro</h1>
+                </div>
+                <div class="play" id="DanzaKuduro">
+                    <img src="iconos/play.png"></img>
+                </div>
+                <div class="stop">
+                    <img src="iconos/stop.png"></img>
+                </div>
+                <div class="download">
+                    <a href="audios/Danza Kuduro Remix.mp3" download>
+                        <img src="iconos/download.png"></img>
+                    </a>
+                </div>
+                <input type="range" max="1" min="0" step="0.1" class="volumen">
+            </div>
+            <div class="cancion">
+                <div class="titulo">
+                    <img src="imagenes/Taboo.png" alt="DonOmar-Taboo" class="posters">
+                    <h1> DonOmar-Taboo</h1>
+                </div>
+                <div class="play" id="DonOmar-Taboo">
+                    <img src="iconos/play.png"></img>
+                </div>
+                <div class="stop">
+                    <img src="iconos/stop.png"></img>
+                </div>
+                <div class="download">
+                    <a href="audios/DonOmar-Taboo.mp3" download>
+                        <img src="iconos/download.png"></img>
+                    </a>
+                </div>
+                <input type="range" max="1" min="0" step="0.1" class="volumen">
+            </div>
+        </div>
+        <div class="cancion">
+            <div class="titulo">
+                <img src="imagenes/rosalia.png" alt="Rosalia-despecha" class="posters">
+                <h1> Rosalia-despecha </h1>
+            </div>
+            <div class="play" id="Rosalia-despecha">
+                <img src="iconos/play.png"></img>
+            </div>
+            <div class="stop">
+                <img src="iconos/stop.png"></img>
+            </div>
+            <div class="download">
+                <a href="audios/Rosalia-despecha.mp3" download>
+                    <img src="iconos/download.png"></img>
+                </a>
+            </div>
+            <input type="range" max="1" min="0" step="0.1" class="volumen">
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
