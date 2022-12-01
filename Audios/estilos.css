@@ -92,15 +92,15 @@ h2{
 
 @media screen and (max-width: 478px){
     .container{
-        width: 50vh;
-        height: 220vh;
+        width: 80vh;
+        height: 100%;
+    }
+    .titulo-playlist{
+        font-size: 15px;
     }
     .listado-canciones{
         width: 94%;
         height: 100%;
     }
-    img{
-        padding: 2rem 2rem;
-    }    
 
 }
