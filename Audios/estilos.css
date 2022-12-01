@@ -93,6 +93,6 @@ h2{
 @media screen and (max-width: 478px){
     .container{
         width: 50vh;
-        height: 110vh;
+        height: 220vh;
     }
 }
