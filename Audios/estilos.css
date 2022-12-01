@@ -95,4 +95,12 @@ h2{
         width: 50vh;
         height: 220vh;
     }
+    .listado-canciones{
+        width: 94%;
+        height: 100%;
+    }
+    img{
+        padding: 2rem 2rem;
+    }    
+
 }
