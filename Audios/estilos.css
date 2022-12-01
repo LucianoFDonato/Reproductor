@@ -1,8 +1,13 @@
-html {
-    font-family: 'poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,300&display=swap');   
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.titulo-playlist{
+.titulo-playlist {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
     width: 23vh;
     height: 6vh;
     background: rgba(180, 175, 175, 0.15);
@@ -18,7 +23,7 @@ html {
 
 .container {
     width: 100vh;
-    height: 160vh;
+    height: 220vh;
     margin: 2rem auto;
     background: rgba(180, 175, 175, 0.15);
     display: flex;
@@ -65,7 +70,29 @@ img {
 }
 
 h1 {
-    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
     padding: 0;
     margin: 0;
+}
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+.icon{
+    display: flex;
+    top: 5px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+@media screen and (max-width: 478px){
+    .container{
+        width: 50vh;
+        height: 110vh;
+    }
 }
