@@ -106,8 +106,10 @@ h2{
 @media screen and (max-width: 478px){
     .titulo-playlist{
         font-size: 18px;
-        width: 18vh;
-        height: 8vh;
+        width: 40%;
+        height: 6vh;
+        padding: 10px;
+        justify-content: center;
     }
     .container{
         width: 100%;
