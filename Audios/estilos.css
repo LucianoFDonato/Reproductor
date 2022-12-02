@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,300&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,300&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
 
-.titulo-playlist{
+.titulo-playlist {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
-    width: 16vh;
-    height: 8vh;
-    align-items: center;
+    width: 20%;
+    height: 6vh;
+    padding: 10px;
+    justify-content: center;
     background: rgba(180, 175, 175, 0.15);
     margin: 20px auto;
     display: flex;
@@ -44,11 +45,12 @@
     justify-content: space-between;
     align-items: center;
 }
-.iconos{
+
+.iconos {
     padding: 1rem 1rem;
     display: flex;
     width: 50%;
-    height: 34vh;    
+    height: 34vh;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -64,7 +66,7 @@
 .stop,
 .download {
     flex: 1;
-    
+
 }
 
 img {
@@ -86,11 +88,13 @@ h1 {
     padding: 0;
     margin: 0;
 }
-h2{
+
+h2 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
 }
-.icon{
+
+.icon {
     width: 26px;
     height: 26px;
     display: flex;
@@ -98,23 +102,44 @@ h2{
     margin-top: 8px;
     margin-bottom: 5px;
 }
+.how-i-am{
+    width: 92%;
+    height: 4px;
+    display: flex;
+    font-family:'Josefin Sans', sans-serif;
+    margin: 0 auto;
+    justify-content: center;
+}
 
 
 
 
-
-@media screen and (max-width: 478px){
-    .titulo-playlist{
+@media screen and (max-width: 478px) {
+    
+    .titulo-playlist {
         font-size: 18px;
         width: 40%;
         height: 6vh;
         padding: 10px;
         justify-content: center;
     }
-    .container{
-        width: 100%;
+
+    .container {
+        width: 92%;
         height: 90%;
         margin: 4rem auto;
     }
-    
+
+    input{
+        display: none;
+    }
+
+    .how-i-am{
+        width: 92%;
+        height: 4px;
+        display: flex;
+        font-family:'Josefin Sans', sans-serif;
+        margin: 0 auto;
+        justify-content: center;
+    }
 }
